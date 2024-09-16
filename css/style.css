@@ -1,0 +1,170 @@
+
+ #top_pa {
+      background-image: url(../images/backround_.jpg); 
+         background-repeat:  no-repeat;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+   } 
+#circle {
+	width: 210px;
+	height: 210px;
+	background: #ecf0f1 ;
+	-moz-border-radius: 105px;
+	-webkit-border-radius: 105px;
+	border-radius: 105px;
+}
+
+#menu {
+    height: auto;
+    margin-bottom: 0px;
+    background: none;
+    color: #fff;
+    border: 0px;
+}
+
+#menu h4{
+   font-family: "brandon-grotesque", sans-serif;
+        font-weight: 700;
+    color: #fff;
+    
+    font-size: 20px;
+    line-height: 1.25em;
+
+}
+
+#top-centr h3 {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Pacifico', cursive;
+    font-weight: 500;
+    color: #ca9333;
+    line-height: 1em;
+}
+
+#top-centr h4 {
+ 
+    text-align: center;
+    font-size: 13px;
+    font-family: "brandon-grotesque", sans-serif;
+    font-weight: 600;
+    color: #ca9333;
+    line-height: 1em;
+}
+
+#top h1 {
+    font-family: "brandon-grotesque", sans-serif;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1.25em;
+}
+
+#top h3 {
+    font-family: "font-family: 'Fjalla One', sans-serif";
+    font-weight: 400;
+    color: #ca9333;
+    text-align: right;
+    line-height: 0.5em;
+}
+#footer {
+    
+    height: auto;
+    margin-bottom: 0px;
+            background: #ee880f; /* Для старых браузров */
+    background: linear-gradient(to bottom, #ee880f, #352f27);
+    padding: 10px;
+    border: 1px solid #333;
+ ; 
+}
+
+#footer h3{
+    color: #000000;
+    text-align: left;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+
+#footer p {
+    
+    font-family: "brandon-grotesque", sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: #000000;
+    text-align: left;
+    line-height: 2px;
+    margin-bottom: 25px;
+    margin-left: 35px;
+}
+
+.languages {
+    padding: 0px;
+    margin-left: 15px;
+}
+
+.center {
+    text-align: center; 
+}
+
+.flags {
+    margin-top: 40px;
+}
+
+.flag {
+    height: 30px;
+}
+
+#text_big {
+    min-height: 100px;
+}
+
+#feedback input{
+    height: 40px;
+    font-weight: 400;
+    text-align: left;
+    font-size: 21px;
+    
+}
+
+#feedback textarea{
+    font-size: 16px;
+}
+
+#feedback h3{
+    color: #000000;
+    font-weight: 400;
+    margin-left: 25px;
+    font-size: 27px;
+    margin-top: 30px;
+}
+
+#feedback button{
+    font-size: 22px;
+}
+
+#form_sent {
+    display:  inline-block;
+    margin: 0px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 6px 12px; 
+    color:#fff ;   
+    font-size: 22px;     
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+#partner h3, #certificate h3 {
+    margin-left: 35px;
+}
+
+#certificate a {
+   color: black;
+}
+
+#certificate a:hover {
+    color: #23527c;
+}
